@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/list.css">
+<!-- I know it's not best practice to place js in HTML, but I though my 2 separate js
+files might be part of why it's not working yet, so I tried this way. -->
+    <!-- <script type="text/javascript">
+    function swapStyleSheet(sheet){
+      document.getElementById('pagestyle').SetAttribute('href',sheet)
+    }
+    </script> -->
+
+
+      <!-- <link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/list.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- interesting discovery - if I hit RETURN in the middle of one of the links in an effort to help it all show at once on screen, it breaks it -->
+     <!-- <link rel="stylesheet" href="assets/css/list.css"> -->
+    <title></title>
+  </head>
+  <body>
+    <div id="container">
+        <button onclick="swapStyleSheet('grid.css')">Grid Style Sheet</button>
+        <button onclick="swapStyleSheet('list.css')">List Style Sheet</button>
+      </div>
+
+      <ul class="list">
+        <li>Silver beet</li>
+        <li>Wattle seed</li>
+        <li>Kohlrabi bok</li>
+        <li>Celery carrot</li>
+        <li>Catsear</li>
+        <li>Mung bean</li>
+        <li>Epazote</li>
+        <li>Tatsoi caulie</li>
+        <li>Endive okra</li>
+        <li>Bush tomato</li>
+        <li>Yarrow leek</li>
+      </ul>
+
+          <!-- <script src="assets/js/scripts.js"></script>  -->
+    </div>
+  </body>
+</html>
